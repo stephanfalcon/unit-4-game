@@ -1,0 +1,14 @@
+.card{
+
+    margin:5px;
+}
+img{
+    height:125px;
+    width:200px;
+}
+.sith{
+    background:rgb(255, 44, 44);
+}
+.jedi{
+    background:rgb(65, 65, 255);
+}
