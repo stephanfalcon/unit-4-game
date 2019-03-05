@@ -178,7 +178,9 @@ function attack(attacker, target){
 }
 function lightsaber(){
     var sound = document.createElement('audio');
+
     rando = Math.floor(Math.random()*11);
+
     sound.setAttribute("src", ls[rando]);
     sound.play();
 
