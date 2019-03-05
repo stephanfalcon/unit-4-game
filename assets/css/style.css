@@ -1,0 +1,39 @@
+.card{
+
+    margin:5px;
+}
+img{
+    height:125px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sith{
+    background:rgb(255, 44, 44);
+}
+.jedi{
+    background:rgb(65, 65, 255);
+}
+.btn{
+    margin:2px
+}
+#special{
+    height:25px;
+    width:100%;
+    margin-left:0px
+}
+.special{
+    height:100%;
+    width:20%;
+    border:1px solid black;
+    background:grey;
+}
+
+#pmove{
+    float:left;
+    
+}
+#emove{
+    float:right;
+    margin-top:auto;
+}
