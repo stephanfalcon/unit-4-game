@@ -128,17 +128,6 @@ card.on("click", function(){
     }
 
 })
-
-$("#atkbtn").on("click", function(){
-    var damage = attack(pc,npc);
-    playerattack = true;
-    $(".enemy").children("div.card-body").children("div.row.hp").children("h4.points").text(damage)
-
-})
-$("#defbtn").on("click", function(){
-    defend(pc);
-    
-})
 $(".btn").on("click", function(){
     clearInterval(poop)
     specmeter++;
@@ -150,6 +139,17 @@ $(".btn").on("click", function(){
         emove.empty();
     },2000)
 })
+$("#atkbtn").on("click", function(){
+    var damage = attack(pc,npc);
+    playerattack = true;
+    $(".enemy").children("div.card-body").children("div.row.hp").children("h4.points").text(damage)
+
+})
+$("#defbtn").on("click", function(){
+    defend(pc);
+    
+})
+
 $(".btn").on("click", function(){
     if(npc.hp<=0){
         deathrattle(npc,fighting);
